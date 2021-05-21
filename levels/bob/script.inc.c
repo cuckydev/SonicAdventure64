@@ -1,0 +1,9 @@
+	AREA(1, bob_area_1),
+		WARP_NODE(0x0A, LEVEL_BOB, 0x01, 0x0A, WARP_NO_CHECKPOINT),
+		OBJECT(MODEL_NONE, 0, 448, -196, 0, 0, 0, 0x000A0000, bhvAirborneWarp),
+		TERRAIN(bob_area_1_collision),
+		MACRO_OBJECTS(bob_area_1_Area_macro_objs),
+		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
+		TERRAIN_TYPE(TERRAIN_GRASS),
+	END_AREA(),
+
